@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <section aria-label="navbar">
+      <nav class="navbar">
+        <div class="logo" style="color: #0099e6;">LO<br>GO</div>
+        <div class="grow-list">
+
+          <ul class="list">
+            <li class="list-item">Home</li>
+            <li class="list-item">Blog</li>
+            <li class="list-item">About</li>
+            <li class="list-item">Contact</li>
+          </ul>
+        </div>
+        <div>
+          <img class="icons"
+            src="https://www.citypng.com/public/uploads/preview/transparent-hd-white-menu-burger-icon-31634946136ufll2pj5eo.png"
+            alt="icon-img">
+          <button class="button-small">Login</button>
+        </div>
+      </nav>
+    </section>
+    <!-- Hero Section -->
+    <section aria-label="hero" class="container-1">
+      <div class="hero">
+        <p class="hero-description">
+          Say Hi To
+        </p>
+        <h1 class="hero-heading" style="color: #0099e6; ">One Card</h1>
+        <div class="cards">
+          <h2 style="color: #34b2f1; font-weight: 700;">Co-branded Card Issuers :</h2>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/22/State_Bank_of_Mauritius_Logo.jpg" alt=""
+            class="sbm" width="100px" height="80px">
+          <img src="https://kikkidu.com/wp-content/uploads/2010/12/southIndianBank.jpg" alt="" class="south-India"
+            width="100px" height="50px">
+          <img
+            src="data:image/png;base64,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"
+            alt="" class="csb" width="100px">
+          <img
+            src="https://www.federalbank.co.in/documents/10180/19811456/Federal+Bank+Logo/50376b7b-efd4-453d-b45f-f234b9a4bf29?t=1547721200653"
+            alt="" class="federal" width="100px">
+          <img src="https://1000logos.net/wp-content/uploads/2021/06/Bank-of-Baroda-logo.png" alt="" class="bob"
+            width="100px">
+          <p class="sub-title" style="font-family: 'Open Sans', sans-serif;">India's best metal credit card. Build with
+            full stack tech. Backed by the principles of simplicity and giving back controls to the user.</p>
+        </div>
+      </div>
+      <div class="hero-2">
+        <img src="https://cardmantr.com/wp-content/uploads/2022/04/onecard.jpg" alt="mobile-img" class="mobile">
+      </div>
+    </section>
+  </div>
+  <div class="information">
+    <div class="row">
+      <h1 class="hidden" style="color: #0033cc; font-family: 'Open Sans', sans-serif;">No Hidden Fees Ever</h1>
+
+      <p class="para">No Joining Fees. <br> No Annual Fees.</p>
+      <p class="para-1">No Rewards Redemption Fees.</p>
+    </div>
+    <hr>
+    <div class="footer">
+      <div class="coloumn-1">
+        <div class="text-one" style="color: #fff;">
+          <h3 class="h-1">One Card</h3><br>
+          <p class="f-para">India's best metal credit card. Build with full-stack tech. Backed by the principle of
+            simplicity, transparency and giving back control to the user.</p>
+        </div>
+      </div>
+      <div class="coloumn-2">
+        <div class="text-2" style="color: #fff;">
+          <h3 class="navig">Navigation</h3><br>
+          <ul>Home</ul><br>
+          <ul>About Us</ul><br>
+          <ul>Careers</ul><br>
+          <ul>Offers</ul><br>
+        </div>
+      </div>
+      <div class="coloumn-3">
+        <div class="text-3" style="color: #fff;">
+          <h3 class="support">Support</h3><br>
+          <ul>F.A.Q</ul><br>
+          <ul>Cookies</ul><br>
+          <ul>Terms of Conditions</ul><br>
+          <ul>Supports</ul><br>
+        </div>
+      </div>
+      <div class="coloumn-4">
+        <div class="text-4" style="color: #fff;">
+          <h3 class="newsletter">Newsletter</h3><br>
+          <input type="text" placeholder="Your email id here">
+          <button class="btn">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <section class="dashboard" style="color: grey; background-color: black;">
+      <h1 class="stu">Student DashBoard</h1>
+      <div class="table-container">
+        <table>
+          <thead>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+          </thead>
+          <tr>
+            <td>Rahul Sharma</td>
+            <td>Rahul.sharma@gmail.com</td>
+            <td>8458756692</td>
+          </tr>
+          <tr>
+            <td>Priya Sharma</td>
+            <td>Priya.sharma@gmail.com</td>
+            <td>8458756692</td>
+          </tr>
+          <tr>
+            <td>amit Sharma</td>
+            <td>amit.sharma@gmail.com</td>
+            <td>8458756692</td>
+          </tr>
+          <tr>
+            <td>Sneha Patel</td>
+            <td>sneha.patel@gmail.com</td>
+            <td>8599635477</td>
+          </tr>
+          <tr>
+            <td>Mohit Patel</td>
+            <td>mohit.patel@gmail.com</td>
+            <td>8599635477</td>
+          </tr>
+          <tr>
+            <td>Neha Patel</td>
+            <td>neha.patel@gmail.com</td>
+            <td>8599635477</td>
+          </tr>
+          <tr>
+            <td>Rajesh` Patel</td>
+            <td>rajesh.patel@gmail.com</td>
+            <td>8599635477</td>
+          </tr>
+          <tr>
+            <td>Anita Desai</td>
+            <td>Anita.desai@gmail.com</td>
+            <td>8599635477</td>
+          </tr>
+          <tr>
+            <td>Varun Patel</td>
+            <td>Varun.patel@gmail.com</td>
+            <td>8599635477</td>
+          </tr>
+          <tr>
+            <td>Pooja Patel</td>
+            <td>pooja.patel@gmail.com</td>
+            <td>8599635477</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>

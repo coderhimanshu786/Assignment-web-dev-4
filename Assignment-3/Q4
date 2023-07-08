@@ -1,0 +1,64 @@
+/*
+Ans-4
+
+Step-1    "CSS Media Queries for Print" --
+
+            First of all, we define the media query:
+
+                @media print {
+                    /* styles here */
+                }
+                Assuming that this appears at the bottom of your CSS stylesheet, most styles within the media query for print should overwrite anything else that exists with ease.
+
+                If not, try using the !important rule.
+
+ Step 2:   " Hiding Redundancy"
+
+            When downloading webpages as PDF, users don't need:
+
+                                    UI elements
+                                    Header/footer
+                                    Sidebar content
+                                    Forms and CTAs
+                                    Et cetera
+            We need to hide those elements using display:none;.
+
+                                    For example:
+
+                                    @media print {
+                                        header, footer, aside, form, … {
+                                            display: none;
+                                        }
+                                    }
+
+    Step 3:    "Customizing Page Margins"
+
+                            Browsers are actually quite efficient when it comes to redefining page margins and stacking content. That being said, you might want to define your own margins, which is reasonably easy to do. Just remember to use cm instead of px!
+
+                                                For Example:
+
+                                                @media print {
+                                                  header, footer, aside, form, … {
+                                                    display: none;
+                                                  }
+                                                  article {
+                                                    width:100%!important;
+                                                    padding:0!important;
+                                                    margin:0!important;
+                                                  }
+                                                }
+                                                @page {
+                                                  margin: 2cm;
+                                                }
+
+ Step-4 :       " Handling Links"
+
+                    Links are still clickable in PDFs, but for those users that might want to physically hold the content, we'll need to come up with something more creative. 
+
+                    @media print {
+                      a:after {
+                        content: "("attr(href)")";
+                      }
+                    }
+
+                    */

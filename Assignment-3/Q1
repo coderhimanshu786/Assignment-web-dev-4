@@ -1,0 +1,30 @@
+/*
+Ans-1
+   Media queries are a key part of responsive web design, as they allow you to create different layouts depending on the size of the viewport, but they can also be used to detect other things about the environment your site is running on, for example whether the user is using a touchscreen rather than a mouse.
+
+    uses-
+    1- To conditionally apply styles with the CSS @media and @import at-rules.
+
+    2- To target specific media for the <style>, <link>, <source>, and other HTML elements with the media= attribute.
+
+    3- To test and monitor media states using the Window.matchMedia() and EventTarget.addEventListener() methods.
+/*
+    MediaQuery for different resolution--
+
+
+                             /* Extra small devices (phones, 600px and down) */
+                                    @media only screen and (max-width: 600px) {...}
+
+                                    /* Small devices (portrait tablets and large phones, 600px and up) */
+                                    @media only screen and (min-width: 600px) {...}
+
+                                    /* Medium devices (landscape tablets, 768px and up) */
+                                    @media only screen and (min-width: 768px) {...}
+
+                                    /* Large devices (laptops/desktops, 992px and up) */
+                                    @media only screen and (min-width: 992px) {...}
+
+                                    /* Extra large devices (large laptops and desktops, 1200px and up) */
+                                    @media only screen and (min-width: 1200px) {...}
+                                    
+                                                                        */

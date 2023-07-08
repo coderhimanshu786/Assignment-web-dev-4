@@ -1,0 +1,10 @@
+/*
+Ans-5
+    The orientation CSS media feature can be used to test the orientation of the viewport (or the page box, for paged media).
+    A browser viewport is in landscape mode (that is, the width of the viewport is greater than its height), or else in portrait mode (the height of the viewport is greater than its width)
+
+    CSS provides the orientation media feature to allow adjusting layout based on screen orientation.
+
+    For more Clearity show in img... orientation_img.jpg 
+
+    */

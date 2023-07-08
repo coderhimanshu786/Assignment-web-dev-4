@@ -1,0 +1,14 @@
+/*
+Ans-2
+    A media query consists of a media type and can contain one or more expressions, which resolve to either true or false. The result of the query is true if the specified media type matches the type of device the document is being displayed on and all expressions in the media query are true.
+
+                           @media not|only mediatype and (expressions) {
+                                                                            CSS-Code;
+                                                                        }                       
+
+                                                                        */
+    The result of the query is true if the specified media type matches the type of device the document is being displayed on and all expressions in the media query are true. When a media query is true, the corresponding style sheet or style rules are applied, following the normal cascading rules.
+
+    We can also have different stylesheets for different media:
+
+                <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">

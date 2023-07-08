@@ -1,0 +1,42 @@
+/*
+Ans-3
+   Every website is accessed via devices with different screen sizes and resolutions. The software has to render perfectly across each screen size. Content or images cannot be distorted, cut out, or obscured.
+
+    To allow this, developers have to use CSS breakpoints. These are points defined in the code. Website content responds to these points and adjusts itself to the screen size to display the accurate layout.
+
+    Since CSS breakpoints for responsive design are implemented with media queries, they are also sometimes termed media query breakpoints.
+
+    With CSS breakpoints in place, the website content will align itself with screen size and displays itself in a way that pleases the eye and facilitates visual consumption.
+
+    "Media query breakpoints are pixel values that a developer/designer can define in CSS. When a responsive website reaches those pixel values, a transformation occurs so that the website offers an optimal user experience."
+
+    Common Media Query Breakpoints--
+
+                                      ->  1920 × 1080 (8.89%)
+                                        
+                                     ->   1366 × 768 (8.44%)
+                                        
+                                     ->   360 × 640 (7.28%)
+                                        
+                                     ->   414 × 896 (4.58%)
+                                        
+                                     ->   1536 × 864 (3.88%)
+                                        
+                                     ->   375 × 667 (3.75%)
+
+    Uses with different resolution--
+
+         /* Extra small devices (phones, 600px and down) */
+            @media only screen and (max-width: 600px) {...}
+    
+            /* Small devices (portrait tablets and large phones, 600px and up) */
+            @media only screen and (min-width: 600px) {...}
+            /* Medium devices (landscape tablets, 768px and up) */
+    
+            @media only screen and (min-width: 768px) {...}
+            /* Large devices (laptops/desktops, 992px and up) */
+    
+            @media only screen and (min-width: 992px) {...}
+            /* Extra large devices (large laptops and desktops, 1200px and up) */
+    
+    */
